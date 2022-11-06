@@ -6,11 +6,7 @@ import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import Sidebar from "./components/sidebar/Sidebar";
-import {
-  BrowserRouter,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./pages/contact/Contact";
 import { useContext } from "react";
 import { Context } from "./context/Context";
